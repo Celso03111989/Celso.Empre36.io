@@ -1,0 +1,50 @@
+/* Fondo de computadora */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('images/locos\ parrilla.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(248, 248, 248);
+    text-align: center;
+}
+
+/* Caja de contenido con fondo oscuro semitransparente */
+.contenido {
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 30px;
+    margin: 40px auto;
+    max-width: 900px;
+    border-radius: 10px;
+}
+
+/* Imágenes en fila con espacio */
+.imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.imagenes img {
+    width: 200px;
+    height: auto;
+    border: 2px solid white;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.imagenes img:hover {
+    transform: scale(1.05);
+}
+
+/* Estilos para el video */
+iframe {
+    margin-top: 20px;
+    width: 80%;
+    max-width: 600px;
+    height: 315px;
+    border: none;
+    border-radius: 10px;
+}

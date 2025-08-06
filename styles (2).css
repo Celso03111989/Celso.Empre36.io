@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('images/itsecsucre.jpg') no-repeat center center fixed ;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contenedor {
+    background-color: rgba(0, 0, 0, 0.6); /* Oscurece un poco para que se lea bien */
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    animation: aparecer 1.5s ease;
+    max-width: 350px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+@keyframes aparecer {
+    from { opacity: 0; transform: scale(0.98); }
+    to { opacity: 1; transform: scale(1); }
+}
